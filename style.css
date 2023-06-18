@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#menu{
+    background-color: #0b2e59;
+    width: 720px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.case{
+    margin: 20px 0;
+}
+
+#menu input{
+    width: 630px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+textarea{
+    width: 630px;
+    height: 150px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.case #btn{
+    
+    background-color: #7ab317;
+    border: none;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+.case #btn:active{
+    background-color: #96e40d;
+    transition: .2s;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#list{
+    background-color: #0b2e59;
+    width: 720px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 5px;
+    align-items: center;
+    margin: 50px 0;
+}
+
+li{
+    list-style: none;
+    margin: 10px;
+}
+
+.tarefa{
+    background-color: #4eb3de;
+    display: flex;
+    width: 600px;
+    min-height: 40px;
+    border-radius: 10px;
+    padding: 5px;
+    align-items: center;
+
+
+}
+
+
+.titulo{
+    word-break: break-all;
+     margin: 0 10px;
+     border-bottom: 2px solid #cccc66;
+     font-weight: 700;
+}
+
+.btn{
+    width: 30px;
+    font-size: 7px;
+    height: 30px;
+    border-radius: 15px ;
+    border: none;
+    text-align: center;
+}
+
+.btn:active{
+    background-color: rgb(255, 83, 83);
+}

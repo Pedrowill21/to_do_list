@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        #container{
+            width: 720px;
+            min-height: 400px;
+            background-color: rgb(97, 0, 189);
+        }
+
+    </style>
+</head>
+<body>
+
+    <div id="container" onclick="ok()">
+        <ul class="list-tarefa">
+            <li>
+                terefa
+
+            </li>
+        </ul>
+
+    </div>
+
+    <script>
+
+        function ok(){
+            let ul = document.querySelector('.list-tarefa');
+        let li = document.createElement('li')
+        li.innerText = 'terefa2';
+        ul.insertAdjacentElement('beforeend', li)
+        }
+       
+    </script>
+    
+</body>
+</html>

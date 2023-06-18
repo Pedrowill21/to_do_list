@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>To do list</title>
+</head>
+<body onload="carregar()">
+
+    <div id="container">
+        <div id="menu">
+            <form action="">
+                <div class="case">
+                    <input type="text" placeholder="Nome da tarefa" id="titulo">
+                </div>
+                <div class="case">
+                    <textarea cols="30" rows="10" id="descricao" ></textarea>
+                </div>
+                <div class="case center">
+                    <input type="button" value="Salvar" onclick="CriarTarefa()" id="btn">
+                </div>
+            </form>
+        </div>
+
+        <div id="list">
+            <ul class="list_tarefa">
+              
+                
+            </ul>
+        </div>
+    </div>
+    
+</body>
+</html>
